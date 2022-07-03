@@ -1,7 +1,7 @@
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
-
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 SECRET_KEY = 'a80@58k@y&by1-w^n6(5k^k=gaq^se9(9ocvx1()07ij38ph29'
 
